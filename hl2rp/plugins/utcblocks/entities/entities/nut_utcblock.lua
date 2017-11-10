@@ -68,7 +68,7 @@ if (SERVER) then
 			return
 		end
 
-		if (!activator:isCombine() and activator:Team() != FACTION_ADMIN and activator:Team() != FACTION_UTC) then
+		if (!activator:isCombine() and activator:Team() ~= FACTION_UTC and activator:Team() ~= FACTION_ADMIN) then
 			self:error()
 
 			return

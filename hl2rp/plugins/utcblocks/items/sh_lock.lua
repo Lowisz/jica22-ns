@@ -1,5 +1,5 @@
-ITEM.name = "Combine Lock"
-ITEM.desc = "A metallic lock that is placed on doors."
+ITEM.name = "Union Lock"
+ITEM.desc = "A metallic union lock that is placed on doors."
 ITEM.price = 250
 ITEM.model = "models/props_combine/combine_lock01.mdl"
 ITEM.category = "Union"
